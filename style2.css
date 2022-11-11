@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat';
+    box-sizing: border-box;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    background-color: #010035;
+    box-sizing: border-box;
+    padding-top: 40px;
+    width: 100%;
+}
+
+.container {
+    margin: auto;
+    padding: auto;
+}
+
+.footers__profile {
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    background-color: #010035;
+    box-sizing: border-box;
+}
+
+.row {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.footer__col ul li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer__col {
+    padding: 20px;
+}
+
+
+/* .footer__col1 {
+            padding: 20px;
+        } */
+
+.footer__col h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: medium;
+    margin-bottom: 15px;
+}
+
+.footer__col ul li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.footer__col ul li a:hover {
+    color: red;
+    padding-left: 1px;
+    transition: 0.2s;
+}
+
+.copyright {
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    position: static;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.profile {
+    padding: 40px;
+    background-color: aliceblue;
+}
+
+.tujuan {
+    padding: 20px;
+}
+
+.tujuan__jangka {
+    display: inline-flex;
+}
+
+.overview {
+    padding: 20px;
+}
+
+.tujuan h3 {
+    font-size: 32px;
+}
+
+.tujuan ol {
+    padding: 20px;
+    margin: 20px;
+}
+
+.overview h1 {
+    font-size: 24px;
+    padding-left: 20px;
+    font-weight: medium;
+    position: relative;
+    color: #010035;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.overview h1::before {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    background-color: red;
+    height: 2px;
+    box-sizing: border-box;
+    width: 120px;
+    margin: -5px
+}
+
+.tujuan h1 {
+    font-size: 24px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-weight: medium;
+    position: relative;
+    color: #010035;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tujuan h1::before {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    background-color: red;
+    height: 2px;
+    box-sizing: border-box;
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.overview p {
+    color: rgb(120, 111, 111);
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    margin: 10px;
+    display: grid;
+}
+
+.tujuan p {
+    color: rgb(120, 111, 111);
+    font-size: 16px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.overview ol {
+    color: rgb(120, 111, 111);
+    list-style-type: style circle;
+    margin: 10px;
+    padding-left: 45px;
+}
+
+.tujuan ul {
+    color: rgb(120, 111, 111);
+    list-style-type: style circle;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.visi__misi {
+    display: inline-flex;
+}
+
+.visi {
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.visi p {
+    font-weight: 500;
+    text-align: justify;
+}
+
+.visi h2 {
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.misi {
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.misi ol li {
+    padding-top: 20px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.misi h2 {
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.tujuan__jangka__panjang,
+.tujuan__jangka__pendek {
+    width: 100%;
+    text-align: center;
+}
+
+.tujuan__jangka__panjang h2,
+.tujuan__jangka__pendek h2 {
+    font-size: 20px;
+}
+
+.tujuan__jangka__panjang ul {
+    padding-left: 20px;
+}
+
+.tujuan__jangka__panjang ul li {
+    text-align: justify;
+}
+
+.tujuan__jangka__pendek ul {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tujuan__jangka__pendek ul li {
+    text-align: justify;
+}
+
+.card {
+    box-shadow: 0 0.5px 3px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    place-content: center;
+}
+
+
+/* Sambutan */
+
+.sambutan {
+    padding: 20px;
+}
+
+.sambutan h1 {
+    font-size: 24px;
+    padding-left: 20px;
+    font-weight: medium;
+    position: relative;
+    color: #010035;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sambutan h1::before {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    background-color: red;
+    height: 2px;
+    box-sizing: border-box;
+    width: 125px;
+    margin-bottom: 15px;
+}
+
+
+/*Bagian Dekan*/
+
+.dekan {
+    display: inline-flex;
+}
+
+.dekan__fakultas {
+    padding: 20px;
+}
+
+.dekan__fakultas h2 {
+    font-size: 20px;
+    color: red;
+}
+
+.dekan__fakultas h3 {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.dekan__fakultas p {
+    color: rgb(120, 111, 111);
+}
+
+
+/*Bagian kepala pusat */
+
+.kepala__cot {
+    display: inline-flex;
+}
+
+.kepala__cot__pusat {
+    padding: 20px;
+}
+
+.kepala__cot__pusat h2 {
+    font-size: 20px;
+    color: red;
+}
+
+.kepala__cot__pusat h3 {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.kepala__cot__pusat p {
+    color: rgb(120, 111, 111);
+    margin-bottom: 20px;
+}
+
+
+/*Search bar*/
+
+.box {
+    max-width: 400px;
+    width: 100%;
+}
+
+.box__search {
+    position: relative;
+    height: 50px;
+    max-width: 380px;
+    margin: auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.box__search input {
+    position: absolute;
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.box__search .icon {
+    position: absolute;
+    right: -2px;
+    top: 0;
+    width: 50px;
+    line-height: 50px;
+    background: red;
+    color: #010035;
+    font-size: 20px;
+    height: 100%;
+    text-align: center;
+    border-radius: 0 25px 25px 0;
+}
+
+
+/*table Kerja Sama*/
+
+.content {
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 24px;
+    padding-left: 20px;
+    font-weight: medium;
+    position: relative;
+    color: #010035;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.content__table {
+    border-collapse: collapse;
+    min-width: 400px;
+    display: flexbox;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.content__table thead tr {
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content__table th,
+.content__table td {
+    padding: 12px 15px;
+}
+
+.content__table tbody tr {
+    border-bottom: 0.6px solid rgba(218, 218, 218, 0.867);
+}
+
+i {
+    margin-right: 12px;
+}
+
+@media (max-width:768px) {
+    .footers {
+        width: 100%;
+    }
+    .footer__col {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .visi__misi,
+    .tujuan__jangka {
+        display: block;
+    }
+    .tujuan__jangka__pendek {
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 25px;
+    }
+    .tujuan__jangka__panjang {
+        text-align: center;
+    }
+    .dekan,
+    .kepala__cot {
+        position: center;
+        display: block;
+    }
+    .dekan__fakultas {
+        display: block;
+    }
+    .dekan__foto {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .kepala__cot__foto {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .kepala__cot__pusat h2 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .dekan__fakultas h2 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
